@@ -1,9 +1,9 @@
 package com.example.springsecurity.config.security;
 
-import br.com.devSoluctions.anubis.config.repository.UserRepository;
-import br.com.devSoluctions.anubis.security.AutenticacaoViaTokenFilter;
-import br.com.devSoluctions.anubis.service.security.AutenticacaoService;
-import br.com.devSoluctions.anubis.service.security.TokenService;
+import com.example.springsecurity.repository.UserRepository;
+import com.example.springsecurity.security.AutenticacaoService;
+import com.example.springsecurity.security.AutenticacaoViaTokenFilter;
+import com.example.springsecurity.security.TokenService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
